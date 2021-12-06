@@ -1,0 +1,54 @@
+.heading{
+    text-align: center;
+    background-color: rgb(126, 126, 190);
+}
+
+.main{
+    display: flex;
+    height: 60vh;
+    min-width: 720px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.client {
+    flex: 1fr;
+    background-color: rgb(126, 126, 190);   
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.client-chat {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(126, 126, 190);
+    height: 350px;
+}
+
+.client-input {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+}
+
+input{
+    width: 250PX;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+

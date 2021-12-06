@@ -1,0 +1,17 @@
+{
+  "name": "web-socket-server",
+  "version": "1.0.0",
+  "description": "Basic Web-Socket server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Raghu Gannaram",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
